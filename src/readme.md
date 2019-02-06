@@ -27,7 +27,7 @@ Random + CharBased + N - Picks a random text line + scrambles up the characters
 
 
 ## Limitations/concerns
-1. The calculations for WPM could easily be wrong if the author understood the way of calculating it incorrectly.
+1. The calculations for WPM could easily be wrong (developer error)
 2. **There still may be issues (rarely, mostly with CharBased) with text going out of bounds ("out" of the GUI) therefore it is recommended to keep up with the length of the given text lines yourself (or just resize the GUI)** 
 3. Supports only .txt files and unicode character set.
 4. Java jdk-11.
